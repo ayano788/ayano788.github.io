@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+body{
+    background-color:#fff7f0;
+    color:#333333;
+    font-size: 16px;
+}
+
+h1{
+    color:#ff0066;
+}
+
+h2{
+    color:#cc6699;
+}
+
+p{
+    color:#333333;
+}
+
+.cafe-photo{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    margin-bottom:15px;
+}
+
+.cafe-photo img{
+    border-radius:10px;
+}
+
+/* カフェページだけ背景をベージュにする */
+body.cafe {
+    background-color: #fdf6ec;
+}
+
+/* カフェページの見出し */
+body.cafe h1,
+body.cafe h2 {
+    color: #7b4b2a;
+}
+
+/* 画像をおしゃれにする（全ページ共通） */
+img {
+    border-radius: 15px;
+    border: 4px solid #ffffff;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+
+/* カフェページ */
+body.cafe {
+    background-color: #fdf6ec;
+}
+
+body.cafe h1,
+body.cafe h2 {
+    color: #7b4b2a;
+}
+
+/* 居酒屋ページ */
+body.izakaya {
+    background-color: #fff3e6;
+}
+
+body.izakaya h1,
+body.izakaya h2 {
+    color: #b85c00;
+}
+
+/* 画像（全ページ共通） */
+img {
+    border-radius: 15px;
+    border: 4px solid #ffffff;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+
+/* ランチページ */
+body.lunch {
+    background-color: #eef8e8;
+}
+
+body.lunch h1,
+body.lunch h2 {
+    color: #4f7d3a;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+/* トップページ */
+body.top {
+    background-color: #ffffff;
+    background-image: radial-gradient(#cfcfcf 3px, transparent 3px);
+    background-size: 35px 35px;
+}
+
+/* タイトル */
+body.top h1 {
+    color: #333333;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+
+}
+
+/* 小見出し */
+body.top h2 {
+    color: #555555;
+}
+
+/* トップページの説明欄 */
+body.top .index-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.15);
+}
+
+.point{
+    color:#ff7f50;
+    font-weight:bold;
+}
+
+article img{
+    display: block;
+    margin: 30px auto;
+}
+
+ul{
+    list-style-type: square;
+    line-height: 2;
+    display: inline-block;
+    text-align: left;
+}
+
+body.top img{
+    display: block;
+    margin: 30px auto;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+.menu{
+    overflow: hidden;
+}
+
+.menu li{
+    float: left;
+    width: 25%;
+}
+
+.clear{
+    clear: both;
+}
+
+ul{
+    line-height:2;
+    display:inline-block;
+    text-align:left;
+}
+
+.genre li{
+    list-style-image:url("../image/mark.gif");
+}
+
+.point-img{
+    float:right;
+    box-shadow:0 0 10px 3px #aaa;
+    border-radius:15px;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+
+.clear{
+    clear:both;
+}
+
+.clear{
+    clear:both;
+}
